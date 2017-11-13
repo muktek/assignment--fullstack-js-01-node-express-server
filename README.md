@@ -17,13 +17,15 @@ For this assignment, we will focus on creating the **express server**.
 
 You will need to install the express package from NPM.
 
-In `server.js` You will need to:
+In order to satisfactorily complete this assignment, you will need to do the following in `server.js`:
 
 - import the express application with `require()`
 - initialize the express application
 - create a basic route handler on the home path (`/`)
 - return the contents of the `home.html` file from the `src/views/` directory by using the `fs.readFile()`
 - make the app listen on port 3000
+
+
 
 ### Setup Instructions
 
@@ -43,5 +45,8 @@ npm install
 
 # (4) Remove the remote origin repository
 git remote remove origin
+
+# (5) You will work on the part-01-app-server branch
+get checkout -b part-01-app-server
 
 ```
