@@ -46,7 +46,10 @@ npm install
 # (4) Remove the remote origin repository
 git remote remove origin
 
-# (5) You will work on the part-01-app-server branch
+# (5) You will work on the part-01-app-server branch for this feature
 get checkout -b part-01-app-server
-
 ```
+
+### Questions to consider
+- What does `app.use(...)` do?
+- Why are `req`, `res` important and what do they allow us to do?
