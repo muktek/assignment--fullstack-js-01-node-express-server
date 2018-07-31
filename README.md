@@ -25,6 +25,15 @@ In order to satisfactorily complete this assignment, you will need to do the fol
 - return the contents of the `home.html` file from the `src/views/` directory by using the `fs.readFile()`
 - make the app listen on port 3000
 
+### Deliverable
+
+You will need to push your code to github on the `part-01-app-server` git branch
+
+```
+git add .
+git commit -m '«your commit msg»'
+git push origin --all 
+```
 
 
 ### Setup Instructions
@@ -53,3 +62,5 @@ get checkout -b part-01-app-server
 ### Questions to consider
 - What does `app.use(...)` do?
 - Why are `req`, `res` important and what do they allow us to do?
+
+
