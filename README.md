@@ -1,5 +1,7 @@
 # Full Stack JS Project - DevJobs - 01 - Node Express Starter
 
+**`fullstack-js-01-node-express-server`**
+
 ## Context
 You are going to build a full stack web application with node.js + React. In order to become familiar with how a node project works, you will be responsible for configuring the  initial major components of the project.  
 
@@ -32,7 +34,7 @@ You will need to push your code to github on the `part-01-app-server` git branch
 ```
 git add .
 git commit -m '«your commit msg»'
-git push origin --all 
+git push origin --all
 ```
 
 
@@ -62,5 +64,3 @@ get checkout -b part-01-app-server
 ### Questions to consider
 - What does `app.use(...)` do?
 - Why are `req`, `res` important and what do they allow us to do?
-
-
