@@ -1,4 +1,4 @@
-# Full Stack JS Project - DevJobs - 01 - Node Express Starter
+# Full Stack JS Project - DevJobs - 01 - Node Express Server
 
 **`fullstack-js-01-node-express-server`**
 
@@ -58,7 +58,7 @@ npm install
 git remote remove origin
 
 # (5) You will work on the part-01-app-server branch for this feature
-get checkout -b part-01-app-server
+git checkout -b part-01-app-server
 ```
 
 ### Questions to consider
