@@ -17,15 +17,6 @@ You are going to build a full stack web application with node.js + React. In ord
 ## The Assignment
 For this assignment, we will focus on creating the **express server**.
 
-You will need to install the express package from NPM.
-
-In order to satisfactorily complete this assignment, you will need to do the following in `server.js`:
-
-- import the express application with `require()`
-- initialize the express application
-- create a basic route handler on the home path (`/`)
-- return the contents of the `home.html` file from the `src/views/` directory by using the `fs.readFile()`
-- make the app listen on port 3000
 
 ### Deliverable
 
@@ -60,6 +51,30 @@ git remote remove origin
 # (5) You will work on the part-01-app-server branch for this feature
 git checkout -b part-01-app-server
 ```
+
+### Requirements
+
+You will need to install the express package from NPM.
+
+In order to satisfactorily complete this assignment, you will need to do the following in `server.js`:
+
+- import the express application with `require()`
+
+- initialize the express application
+
+- create a basic route handler with `app.use(...)`, respond with the text 'Express App - Devjobs' when a user
+
+- make the app listen on port 3000
+
+
+### Expected Results
+
+1. Project should have express in the dependencies in `package.json`
+
+2. Project code should be in `server.js` file.
+
+3. When I go to `http://localhost:3000` in my browser, I should see text 'Express App - Devjobs '.
+
 
 ### Questions to consider
 - What does `app.use(...)` do?
